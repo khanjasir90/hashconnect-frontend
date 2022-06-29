@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import './widgets/login.dart';
+import './widgets/profile.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -20,11 +22,10 @@ class MyHomePage extends StatelessWidget {
     // TODO: implement build
     return Scaffold(
       backgroundColor: Color(0xff1F2937),
-      // appBar: AppBar(
-      //   title: Text("HashConnect"),
-      //   backgroundColor: Color(0xff1F2937),
-      // ),
-      body: Login(),
+      appBar: AppBar(
+        title: Text("HashConnect"),
+      ),
+      body: Profile(),
     );
   }
 }

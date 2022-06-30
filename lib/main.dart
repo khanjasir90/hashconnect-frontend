@@ -22,10 +22,10 @@ class MyHomePage extends StatelessWidget {
     // TODO: implement build
     return Scaffold(
       backgroundColor: Color(0xff1F2937),
-      appBar: AppBar(
-        title: Text("HashConnect"),
-      ),
-      body: Profile(),
+      // appBar: AppBar(
+      //   title: Text("HashConnect"),
+      // ),
+      body: Login(),
     );
   }
 }
